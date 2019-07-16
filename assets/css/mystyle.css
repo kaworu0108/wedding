@@ -1,0 +1,124 @@
+                /* 頁首頁尾陰影 */
+                
+                #header,
+                #footer,
+                #contact .box {
+                    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+                }
+                /* * {
+        transition: all 1s;
+    } */
+                
+                body {
+                    font-family: 'Noto Sans TC', sans-serif;
+                }
+                /* #header h1 {
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+    } */
+                
+                #hearder h1 nav ul li {
+                    animation-duration: 3s;
+                    animation-iteration-count: 1;
+                }
+                
+                #header nav ul li a:hover {
+                    display: block;
+                    height: 3em;
+                    line-height: 3em;
+                    outline: 1px solid rgb(121, 114, 114);
+                    color: rgba(255, 0, 0, 0.5);
+                }
+                
+                #intro {
+                    background: url(""), url("../../images/intro_1.jpg");
+                    background-size: 256px 256px, cover;
+                    background-attachment: fixed, fixed;
+                    background-position: top left, center center;
+                    background-repeat: repeat, no-repeat;
+                }
+                
+                #intro h2 {
+                    font-size: 2.5rem;
+                    line-height: 1rem;
+                    margin-bottom: 2rem;
+                    text-shadow: 1px 1px 1px #000000;
+                }
+                
+                #intro header {
+                    padding-top: 2em;
+                    background: rgba(0, 0, 0, 0.3);
+                    background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+                }
+                
+                #one {
+                    background: url(""), url("../../images/one_1.jpg");
+                    background-size: 256px 256px, cover;
+                    background-attachment: fixed, fixed;
+                    background-position: top left, left center;
+                }
+                
+                #two {
+                    background: url(""), url("../../images/two_1.jpg");
+                    background-size: 256px 256px, cover;
+                    background-attachment: fixed, fixed;
+                    background-position: top left, top center;
+                }
+                
+                #one .wedding_ring {
+                    width: 250px;
+                    height: 200px;
+                    background: url("../../images/ring.png")no-repeat;
+                    background-size: contain;
+                    position: absolute;
+                    right: 0;
+                    top: -5rem;
+                    z-index: 9999;
+                }
+                
+                #two .flower {
+                    width: 300px;
+                    height: 300px;
+                    background: url("../../images/flower.png")no-repeat;
+                    background-size: contain;
+                    position: absolute;
+                    left: 35rem;
+                    top: -8rem;
+                    z-index: 9999;
+                }
+                
+                #one .content,
+                #two .content {
+                    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+                }
+                /* 送出表單 */
+                
+                input[type='submit'] {
+                    background: rgb(7, 102, 7);
+                }
+                
+                #particles-js {
+                    pointer-events: none;
+                }
+                
+                .box {
+                    background: rgba(255, 255, 255, 0.5);
+                    color: #39454b;
+                    padding: 2em;
+                }
+                
+                .mask {
+                    background: linear-gradient(to right, rgb(114, 170, 223) 0%, transparent 15%, transparent 75%, rgb(114, 170, 223) 100%);
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                }
+                
+                .main.style3.secondary {
+                    background: url("../../images/three_2.jpg")no-repeat;
+                    width: 100vw;
+                    height: 100vh;
+                    background-position: center center;
+                }
